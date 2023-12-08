@@ -29,7 +29,7 @@ We omit goalkeeping events and goalkeepers from the analysis as the role has dif
 
 :::{#fig-events}
 
-![](~/Repos/RStudio/ml-role-detect/figs/p_events.png)
+![](/figs/p_events.png)
 
 Distribution of Events by Player-Match Group
 :::
@@ -46,7 +46,7 @@ After removing events originating with goalkeepers and calculating *centers of p
 
 ::: {#fig-si-comp}
 
-![](~/Repos/RStudio/ml-role-detect/figs/p_silh.png)
+![](/figs/p_silh.png)
 
 Comparison of Silhouette Index by K for four methods
 :::
@@ -58,13 +58,13 @@ We proceeded first with an investigation of normal K-means for $K = 1,...,20$. R
 
 ::: {#fig-cluster_comp layout-nrow=2}
 
-![Gustafson, Kessel, and Babuska Fuzzy K-means](~/Repos/RStudio/ml-role-detect/figs/p_gkb8.png){#fig-gkb8}
+![Gustafson, Kessel, and Babuska Fuzzy K-means](/figs/p_gkb8.png){#fig-gkb8}
 
-![PlayeRank K-means](~/Repos/RStudio/ml-role-detect/figs/p_prk8.png){#fig-prk8}
+![PlayeRank K-means](/figs/p_prk8.png){#fig-prk8}
 
-![K-means](~/Repos/RStudio/ml-role-detect/figs/p_km8.png){#fig-km8}
+![K-means](/figs/p_km8.png){#fig-km8}
 
-![Gaussian Mixed Models](~/Repos/RStudio/ml-role-detect/figs/p_gm9.png){#fig-gm9}
+![Gaussian Mixed Models](/figs/p_gm9.png){#fig-gm9}
 
 Comparison of Clustering Results by Method
 :::
@@ -77,9 +77,9 @@ There are three areas of interest for possible improvement. The first two relate
 
 ::: {#fig-cluster_comp layout-ncol=2}
 
-![Small number of observations](~/Repos/RStudio/ml-role-detect/figs/p_sparse.png){#fig-sparse}
+![Small number of observations](/figs/p_sparse.png){#fig-sparse}
 
-![Multiple areas of responsibility](~/Repos/RStudio/ml-role-detect/figs/p_maor.png){#fig-maor}
+![Multiple areas of responsibility](/figs/p_maor.png){#fig-maor}
 
 
 Potential Problems with Centers of Performance in PlayeRank
